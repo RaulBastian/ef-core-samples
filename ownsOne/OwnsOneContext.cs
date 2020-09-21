@@ -44,6 +44,7 @@ namespace ownsOne
         {
             base.OnConfiguring(optionsBuilder);
 
+
             optionsBuilder.UseSqlServer(this.connectionString);
         }
     }

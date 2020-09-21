@@ -14,7 +14,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ownsOne", "ownsOne\ownsOne.csproj", "{4E2A50D7-7EE2-410B-BE6E-2CADD1C9D0E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "manyToOneWithDelete", "manyToOneWithDelete\manyToOneWithDelete.csproj", "{B972B6BF-FEFE-4E7F-8ECD-AD24D8AA4DA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "manyToOneWithDelete", "manyToOneWithDelete\manyToOneWithDelete.csproj", "{B972B6BF-FEFE-4E7F-8ECD-AD24D8AA4DA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "multiLingual_approach2", "multiLingual_approach2\multiLingual_approach2.csproj", "{6714B599-5477-4E42-A154-73AB92F4FCCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,10 @@ Global
 		{B972B6BF-FEFE-4E7F-8ECD-AD24D8AA4DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B972B6BF-FEFE-4E7F-8ECD-AD24D8AA4DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B972B6BF-FEFE-4E7F-8ECD-AD24D8AA4DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6714B599-5477-4E42-A154-73AB92F4FCCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6714B599-5477-4E42-A154-73AB92F4FCCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6714B599-5477-4E42-A154-73AB92F4FCCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6714B599-5477-4E42-A154-73AB92F4FCCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
