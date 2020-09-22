@@ -45,7 +45,7 @@ namespace multiLingual_approach2
                     db.SaveChanges();
                 };
 
-                var all = rp.GetBooks();
+                var all = rp.GetAll();
             }
         }
 
