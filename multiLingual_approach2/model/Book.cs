@@ -4,10 +4,9 @@ using System.Text;
 
 namespace multiLingual_approach2
 {
-    public class Language
+    public class Book: TranslatableEntityBase<Book_C>
     {
-        public int Id { get; set; }
-
-        public string Short { get; set; }
+        public string Name { get; set; }
     }
+
 }

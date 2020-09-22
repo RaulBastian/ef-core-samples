@@ -5,10 +5,15 @@ using System.Text;
 
 namespace multiLingual_approach2
 {
-    public class TranslationBase<T> where T : class
+    public class TranslatableEntityBase<T> where T : EntityBase, new()
     {
+        public TranslatableEntityBase()
+        {
+            CommonEntity = new T();
+        }
+
         public Language Language { get; set; }
 
-        public T Entity { get; set; }
+        public T CommonEntity { get; set; }
     }
 }
